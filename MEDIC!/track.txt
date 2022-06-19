@@ -1,0 +1,38 @@
+{
+    "id": "MEDIC!",
+    "volume": 0.8,
+    "name": "MEDIC!",
+    "fade_duration": 1.5,
+    "context": "heist",
+    "events": {
+        "setup": {
+            "start_file": "start_setup.ogg",
+            "file": "setup.ogg",
+
+            
+            "volume": 1,
+        },
+        "control" : {
+            "start_file": "start_control.ogg",
+            "file": "control.ogg",
+
+            "volume": 1,
+        },
+        "buildup": {
+            "start_file": "start_buildup.ogg",
+            "file": "buildup.ogg",
+
+            "volume": 1,
+            "fade_in": 0,
+            "fade_out": 0
+        },
+        "assault" : {
+            "start_file": "start_assault.ogg",
+            "file": "assault.ogg",
+
+            "volume": 1,
+            "fade_in": 0,
+            "fade_out": 1
+        }
+    }
+}
